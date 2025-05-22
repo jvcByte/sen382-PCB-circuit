@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/jvcbyte/Downloads/4x8x8-LED-Matrix-Display-project-files-main/4x8x8 LED Matrix Display project files/4x8x8 LED Matrix Clock.kicad_sch</source>
+    <date>2025-05-07T01:24:43+0100</date>
+    <tool>Eeschema 9.0.2-rc1-202504272222~e5e4d9b814~ubuntu24.04.1</tool>
+    <textvar name="design_version">1.0</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>A 4x8x8 LED Matrix Display Clock</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2021-07-14</date>
+        <source>4x8x8 LED Matrix Clock.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a80987a-4efc-4c28-a5aa-9958654f8730</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2be323e-1b31-4fe2-828b-3f9875a513ba</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fa0eaee-a3d5-4bd7-aedc-182f9139c7e2</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d4b8b80-6674-44d2-a33a-425bc3169605</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>LED1_IN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da9405ef-6c13-422d-b459-8884c3f76b27</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Barrel_Jack</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_BarrelJack:BarrelJack_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <property name="ki_fp_filters" value="BarrelJack*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5658d524-bf21-45ec-94ac-1a1867b73bdf</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>LED1_OUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c455486e-2bf1-4998-8733-cb98ea0584b0</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>LED2_IN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d75aee88-766d-4adc-8710-ad3602be909e</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>LED2_OUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2c9bad9-9bd5-4fc7-89cf-2dc7e3627e31</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>LED3_IN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e80e6e3-ce08-4663-9737-30cd7601388e</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>LED3_OUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>721ee036-cf3d-4a3d-a42d-94f0a112f794</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>LED4_IN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e491877a-7de8-4749-90ed-2246c4342f0d</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>LED4_OUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b109ccdf-9134-4ace-9fa4-3505482149c2</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed16583c-c1ce-4dfd-b74d-0fc1e3baa1f3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba90f38b-0345-4644-a185-969e573d3c08</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>1825967-1</value>
+      <footprint>1825967-1:SW_1825967-1</footprint>
+      <fields>
+        <field name="Comment">1825967-1</field>
+        <field name="Footprint">1825967-1:SW_1825967-1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="Switch Tactile OFF (ON) SPST Round Button:1825967-1_1" description=""/>
+      <property name="Comment" value="1825967-1"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5cc3efd-24cb-4f9d-a419-9edc97212750</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>1825967-1</value>
+      <footprint>1825967-1:SW_1825967-1</footprint>
+      <fields>
+        <field name="Comment">1825967-1</field>
+        <field name="Footprint">1825967-1:SW_1825967-1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="Switch Tactile OFF (ON) SPST Round Button:1825967-1_1" description=""/>
+      <property name="Comment" value="1825967-1"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>935582d2-cbb7-4cf8-ab95-74874b661ded</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>SS12D07VG4</value>
+      <footprint>SS12D07VG4:SW_SS12D07VG4</footprint>
+      <fields>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.7mm</field>
+        <field name="MANUFACTURER">Shouhan</field>
+        <field name="PARTREV">1</field>
+        <field name="Footprint">SS12D07VG4:SW_SS12D07VG4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SS12D07VG4" part="SS12D07VG4" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="8.7mm"/>
+      <property name="MANUFACTURER" value="Shouhan"/>
+      <property name="PARTREV" value="1"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5dd5c25-2283-4b0c-b429-d2367cdab2a8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ArduinoProMiniSimple</value>
+      <footprint>DesktopLibrary:ArduinoProMiniCustom</footprint>
+      <fields>
+        <field name="Footprint">DesktopLibrary:ArduinoProMiniCustom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ArduinoProMiniSimple" part="ArduinoProMiniSimple" description="This is an Arduino Pro Mini, with A4 and A5 placed on an inside row instead of the perimeter of the module."/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="4x8x8 LED Matrix Clock.kicad_sch"/>
+      <property name="ki_keywords" value="Arduino Pro Mini"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0abe2ea9-7c3f-47cb-9dac-ae2ffb988806</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ArduinoProMiniSimple" part="ArduinoProMiniSimple">
+      <description>This is an Arduino Pro Mini, with A4 and A5 placed on an inside row instead of the perimeter of the module.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ArduinoProMiniSimple</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">This is an Arduino Pro Mini, with A4 and A5 placed on an inside row instead of the perimeter of the module.</field>
+      </fields>
+      <pins>
+        <pin num="0" name="TXO" type="output"/>
+        <pin num="1" name="RXI" type="input"/>
+        <pin num="2" name="RST" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="2" type="bidirectional"/>
+        <pin num="5" name="3" type="bidirectional"/>
+        <pin num="6" name="4" type="bidirectional"/>
+        <pin num="7" name="5" type="bidirectional"/>
+        <pin num="8" name="6" type="bidirectional"/>
+        <pin num="9" name="7" type="bidirectional"/>
+        <pin num="10" name="8" type="bidirectional"/>
+        <pin num="11" name="9" type="bidirectional"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="A6" type="bidirectional"/>
+        <pin num="14" name="A7" type="bidirectional"/>
+        <pin num="15" name="10" type="bidirectional"/>
+        <pin num="16" name="11" type="bidirectional"/>
+        <pin num="17" name="12" type="bidirectional"/>
+        <pin num="18" name="13" type="bidirectional"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="Vcc" type="power_in"/>
+        <pin num="24" name="RST" type="passive"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="RAW" type="power_in"/>
+        <pin num="27" name="GND" type="input"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="VCC" type="power_in"/>
+        <pin num="30" name="TXI" type="input"/>
+        <pin num="31" name="TXO" type="output"/>
+        <pin num="32" name="DTR" type="passive"/>
+        <pin num="33" name="A4" type="bidirectional"/>
+        <pin num="34" name="A5" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">DC Barrel Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+    <libpart lib="SS12D07VG4" part="SS12D07VG4">
+      <fields>
+        <field name="Reference">S3</field>
+        <field name="Value">SS12D07VG4</field>
+        <field name="Footprint">SS12D07VG4:SW_SS12D07VG4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.7mm</field>
+        <field name="MANUFACTURER">Shouhan</field>
+        <field name="PARTREV">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch Tactile OFF (ON) SPST Round Button" part="1825967-1_1">
+      <fields>
+        <field name="Reference">S1</field>
+        <field name="Value">1825967-1</field>
+        <field name="Footprint">1825967-1:SW_1825967-1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="Comment">1825967-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CLK0" class="Signal">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="11" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/CLK1" class="Signal">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="3" name="/CLK2" class="Signal">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="4" name="/CLK3" class="Signal">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="5" name="/CS0" class="Signal">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="13" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/CS1" class="Signal">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/CS2" class="Signal">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="8" name="/CS3" class="Signal">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/DIN0" class="Signal">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="10" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/DIN1" class="Signal">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="11" name="/DIN2" class="Signal">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="12" name="/DIN3" class="Signal">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="13" name="/MODE_SELECT" class="Signal">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="S2" pin="1" pintype="passive"/>
+      <node ref="S2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="4" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/TIMER_RESET" class="Signal">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="S1" pin="1" pintype="passive"/>
+      <node ref="S1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="5" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Vcc" class="Vcc">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="S1" pin="3" pintype="passive"/>
+      <node ref="S1" pin="4" pintype="passive"/>
+      <node ref="S2" pin="3" pintype="passive"/>
+      <node ref="S2" pin="4" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="16" name="GND" class="GND">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="S3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="25" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="27" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="17" name="Net-(J2-Pad2)" class="Signal">
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="S3" pin="3" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(J9-Pin_1-Pad1)" class="Default">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J9-Pin_2-Pad2)" class="Default">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J9-Pin_3-Pad3)" class="Default">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J9-Pin_4-Pad4)" class="Default">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J9-Pin_5-Pad5)" class="Default">
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(S3-Pad1)" class="Default">
+      <node ref="S3" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(S3-SHIELD-PadS1)" class="Default">
+      <node ref="S3" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(S3-SHIELD-PadS2)" class="Default">
+      <node ref="S3" pin="S2" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-2-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-3-Pad5)" class="Default">
+      <node ref="U1" pin="5" pinfunction="3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-6-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-7-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-8-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-9-Pad11)" class="Default">
+      <node ref="U1" pin="11" pinfunction="9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-12-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-A0-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="A0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-A1-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-A2-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-A3-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-A4-Pad33)" class="Default">
+      <node ref="U1" pin="33" pinfunction="A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-A5-Pad34)" class="Default">
+      <node ref="U1" pin="34" pinfunction="A5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-A6-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-A7-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-DTR-Pad32)" class="Default">
+      <node ref="U1" pin="32" pinfunction="DTR" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-RAW-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="RAW" pintype="power_in+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-RST-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="RST" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-RST-Pad24)" class="Default">
+      <node ref="U1" pin="24" pinfunction="RST" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-RXI-Pad1)" class="Default">
+      <node ref="U1" pin="1" pinfunction="RXI" pintype="input+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-TXI-Pad30)" class="Default">
+      <node ref="U1" pin="30" pinfunction="TXI" pintype="input+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-TXO-Pad0)" class="Default">
+      <node ref="U1" pin="0" pinfunction="TXO" pintype="output+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-TXO-Pad31)" class="Default">
+      <node ref="U1" pin="31" pinfunction="TXO" pintype="output+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-Vcc-Pad23)" class="Default">
+      <node ref="U1" pin="23" pinfunction="Vcc" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>

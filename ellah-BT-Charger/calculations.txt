@@ -1,0 +1,6 @@
+BOARD CALCULATIONS
+
+Board overall dimensions: 100 mm x 50 mm
+Board Thickness: 1.6000 mm
+Min hole diameter: 0.3000 mm
+Min track/spacing: 0.2000 mm / 0.0000 mm
